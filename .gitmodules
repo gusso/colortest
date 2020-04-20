@@ -1,0 +1,3 @@
+[submodule "neptune"]
+	path = neptune
+	url = git@github.com:transferwise/neptune.git

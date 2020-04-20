@@ -1,5 +1,627 @@
 {
   "color": {
+    "dark": {
+      "primary": {
+        "value": {
+          "red": "0.22",
+          "green": "0.32",
+          "blue": "0.49",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.navy.light.value}"
+        },
+        "name": "darkPrimary",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "primary"
+        },
+        "path": [
+          "color",
+          "dark",
+          "primary"
+        ]
+      },
+      "secondary": {
+        "value": {
+          "red": "0.44",
+          "green": "0.53",
+          "blue": "0.57",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.grey.mid.value}"
+        },
+        "name": "darkSecondary",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "secondary"
+        },
+        "path": [
+          "color",
+          "dark",
+          "secondary"
+        ]
+      },
+      "accent": {
+        "value": {
+          "red": "0.00",
+          "green": "0.73",
+          "blue": "1.00",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.blue.light.value}"
+        },
+        "name": "darkAccent",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "accent"
+        },
+        "path": [
+          "color",
+          "dark",
+          "accent"
+        ]
+      },
+      "positive": {
+        "value": {
+          "red": "0.18",
+          "green": "0.82",
+          "blue": "0.43",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.green.light.value}"
+        },
+        "name": "darkPositive",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "positive"
+        },
+        "path": [
+          "color",
+          "dark",
+          "positive"
+        ]
+      },
+      "negative": {
+        "value": {
+          "red": "0.96",
+          "green": "0.21",
+          "blue": "0.21",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.red.light.value}"
+        },
+        "name": "darkNegative",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "negative"
+        },
+        "path": [
+          "color",
+          "dark",
+          "negative"
+        ]
+      },
+      "warning": {
+        "value": {
+          "red": "1.00",
+          "green": "0.65",
+          "blue": "0.00",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.orange.light.value}"
+        },
+        "name": "darkWarning",
+        "attributes": {
+          "category": "color",
+          "type": "dark",
+          "item": "warning"
+        },
+        "path": [
+          "color",
+          "dark",
+          "warning"
+        ]
+      },
+      "text": {
+        "primary": {
+          "value": {
+            "red": "0.22",
+            "green": "0.32",
+            "blue": "0.49",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.primary.value}"
+          },
+          "name": "darkTextPrimary",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "primary"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "primary"
+          ]
+        },
+        "secondary": {
+          "value": {
+            "red": "0.44",
+            "green": "0.53",
+            "blue": "0.57",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.secondary.value}"
+          },
+          "name": "darkTextSecondary",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "secondary"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "secondary"
+          ]
+        },
+        "inactive": {
+          "value": {
+            "red": "0.66",
+            "green": "0.67",
+            "blue": "0.67",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.smoke.dark.value}"
+          },
+          "name": "darkTextInactive",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "inactive"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "inactive"
+          ]
+        },
+        "link": {
+          "value": {
+            "red": "0.00",
+            "green": "0.73",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.accent.value}"
+          },
+          "name": "darkTextLink",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "link"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "link"
+          ]
+        },
+        "positive": {
+          "value": {
+            "red": "0.18",
+            "green": "0.82",
+            "blue": "0.43",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.positive.value}"
+          },
+          "name": "darkTextPositive",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "positive"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "positive"
+          ]
+        },
+        "negative": {
+          "value": {
+            "red": "0.96",
+            "green": "0.21",
+            "blue": "0.21",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.negative.value}"
+          },
+          "name": "darkTextNegative",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "negative"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "negative"
+          ]
+        },
+        "warning": {
+          "value": {
+            "red": "1.00",
+            "green": "0.65",
+            "blue": "0.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.warning.value}"
+          },
+          "name": "darkTextWarning",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "warning"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "warning"
+          ]
+        }
+      },
+      "control": {
+        "accent": {
+          "value": {
+            "red": "0.00",
+            "green": "0.73",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.accent.value}"
+          },
+          "name": "darkControlAccent",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "control",
+            "subitem": "accent"
+          },
+          "path": [
+            "color",
+            "dark",
+            "control",
+            "accent"
+          ]
+        },
+        "positive": {
+          "value": {
+            "red": "0.18",
+            "green": "0.82",
+            "blue": "0.43",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.positive.value}"
+          },
+          "name": "darkControlPositive",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "control",
+            "subitem": "positive"
+          },
+          "path": [
+            "color",
+            "dark",
+            "control",
+            "positive"
+          ]
+        },
+        "negative": {
+          "value": {
+            "red": "0.96",
+            "green": "0.21",
+            "blue": "0.21",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.negative.value}"
+          },
+          "name": "darkControlNegative",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "control",
+            "subitem": "negative"
+          },
+          "path": [
+            "color",
+            "dark",
+            "control",
+            "negative"
+          ]
+        },
+        "warning": {
+          "value": {
+            "red": "1.00",
+            "green": "0.65",
+            "blue": "0.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.warning.value}"
+          },
+          "name": "darkControlWarning",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "control",
+            "subitem": "warning"
+          },
+          "path": [
+            "color",
+            "dark",
+            "control",
+            "warning"
+          ]
+        }
+      },
+      "border": {
+        "neutral": {
+          "value": {
+            "red": "0.89",
+            "green": "0.90",
+            "blue": "0.91",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.smoke.light.value}"
+          },
+          "name": "darkBorderNeutral",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "border",
+            "subitem": "neutral"
+          },
+          "path": [
+            "color",
+            "dark",
+            "border",
+            "neutral"
+          ]
+        },
+        "focus": {
+          "value": {
+            "red": "0.00",
+            "green": "0.73",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.light.accent.value}"
+          },
+          "name": "darkBorderFocus",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "border",
+            "subitem": "focus"
+          },
+          "path": [
+            "color",
+            "dark",
+            "border",
+            "focus"
+          ]
+        }
+      },
+      "background": {
+        "screen": {
+          "value": {
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.white.value}"
+          },
+          "name": "darkBackgroundScreen",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "screen"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "screen"
+          ]
+        },
+        "elevated": {
+          "value": {
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.white.value}"
+          },
+          "name": "darkBackgroundElevated",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "elevated"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "elevated"
+          ]
+        },
+        "neutral": {
+          "value": {
+            "red": "0.95",
+            "green": "0.96",
+            "blue": "0.97",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.smoke.fade.value}"
+          },
+          "name": "darkBackgroundNeutral",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "neutral"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "neutral"
+          ]
+        },
+        "accent": {
+          "value": {
+            "red": "0.85",
+            "green": "0.95",
+            "blue": "0.98",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.blue.fade.value}"
+          },
+          "name": "darkBackgroundAccent",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "accent"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "accent"
+          ]
+        },
+        "positive": {
+          "value": {
+            "red": "0.84",
+            "green": "0.96",
+            "blue": "0.89",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.green.fade.value}"
+          },
+          "name": "darkBackgroundPositive",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "positive"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "positive"
+          ]
+        },
+        "negative": {
+          "value": {
+            "red": "1.00",
+            "green": "0.87",
+            "blue": "0.87",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.red.fade.value}"
+          },
+          "name": "darkBackgroundNegative",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "negative"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "negative"
+          ]
+        },
+        "warning": {
+          "value": {
+            "red": "1.00",
+            "green": "0.96",
+            "blue": "0.87",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.orange.fade.value}"
+          },
+          "name": "darkBackgroundWarning",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "background",
+            "subitem": "warning"
+          },
+          "path": [
+            "color",
+            "dark",
+            "background",
+            "warning"
+          ]
+        }
+      }
+    },
     "light": {
       "primary": {
         "value": {
