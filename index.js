@@ -6,7 +6,7 @@ StyleDictionary.registerFilter({
 })
 
 StyleDictionary.extend({
-  source: ["neptune/tokens/transferwise/color/*.json"],
+  source: ["tokens/color/*.json"],
   platforms: {
     json: {
       transforms: ["name/ti/camel", "attribute/cti", "color/sketch"],
