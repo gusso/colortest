@@ -1,23 +1,41 @@
-const StyleDictionary = require('style-dictionary')
+const StyleDictionary = require("style-dictionary")
 
 StyleDictionary.registerFilter({
-  name: 'filter-alias',
-  matcher: function(prop) {
-    return prop.attributes.type !== 'base'
-  },
+  name: "filter",
+  matcher: (prop) => prop.attributes.type !== "base" && !prop.hideInDesign,
 })
 
-StyleDictionary.extend({
-  source: ['properties/**/*.json'],
+const go = {
   platforms: {
-    css: {
-      transformGroup: 'css',
-      buildPath: 'build/css/',
+    json: {
+      transforms: [
+        // The following transforms map the property name, attribute
+        // and color values into formats the plugin expects.
+        "name/ti/camel",
+        "attribute/cti",
+        "color/sketch",
+      ],
       files: [
         {
-          destination: 'variables.css',
-          format: 'css/variables',
-          filter: 'filter-alias',
+          // This defines the file format of the output.
+          format: "json",
+          destination: "output.json",
+        },
+      ],
+    },
+  },
+}
+
+StyleDictionary.extend({
+  source: ["properties/color/*.json"],
+  platforms: {
+    json: {
+      transforms: ["name/ti/camel", "attribute/cti", "color/sketch"],
+      files: [
+        {
+          format: "json",
+          destination: "variables.json",
+          filter: "filter",
         },
       ],
     },
