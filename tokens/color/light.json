@@ -12,6 +12,7 @@
         "primary": { "value": "{color.light.primary.value}" },
         "secondary": { "value": "{color.light.secondary.value}" },
         "inactive": { "value": "{color.base.smoke.dark.value}" },
+        "control": { "value": "{color.base.white.value}" },
         "important": {
           "value": "{color.light.primary.value}",
           "hideInDesign": true

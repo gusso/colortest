@@ -2,7 +2,7 @@ const StyleDictionary = require("style-dictionary")
 
 StyleDictionary.registerFilter({
   name: "filter",
-  matcher: (prop) => prop.attributes.type !== "base" && !prop.hideInDesign,
+  matcher: (prop) => !prop.hideInDesign,
 })
 
 StyleDictionary.extend({

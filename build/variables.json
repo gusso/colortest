@@ -1,15 +1,701 @@
 {
   "color": {
-    "dark": {
-      "primary": {
+    "base": {
+      "blue": {
+        "light": {
+          "value": {
+            "red": "0.00",
+            "green": "0.73",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#00b9ff"
+          },
+          "name": "baseBlueLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.00",
+            "green": "0.64",
+            "blue": "0.87",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#00a4df"
+          },
+          "name": "baseBlueMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.00",
+            "green": "0.56",
+            "blue": "0.75",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#008ec0"
+          },
+          "name": "baseBlueDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "0.85",
+            "green": "0.95",
+            "blue": "0.98",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#d8f1fa"
+          },
+          "name": "baseBlueFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "blue",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "blue",
+            "fade"
+          ]
+        }
+      },
+      "green": {
+        "light": {
+          "value": {
+            "red": "0.18",
+            "green": "0.82",
+            "blue": "0.43",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#2ed06e"
+          },
+          "name": "baseGreenLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "green",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.16",
+            "green": "0.72",
+            "blue": "0.38",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#28b862"
+          },
+          "name": "baseGreenMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "green",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.11",
+            "green": "0.52",
+            "blue": "0.28",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#1d8547"
+          },
+          "name": "baseGreenDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "green",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "0.84",
+            "green": "0.96",
+            "blue": "0.89",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#d6f6e2"
+          },
+          "name": "baseGreenFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "green",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "green",
+            "fade"
+          ]
+        }
+      },
+      "red": {
+        "light": {
+          "value": {
+            "red": "0.96",
+            "green": "0.21",
+            "blue": "0.21",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#f53636"
+          },
+          "name": "baseRedLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "red",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "red",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.81",
+            "green": "0.19",
+            "blue": "0.19",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#cf3131"
+          },
+          "name": "baseRedMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "red",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "red",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.71",
+            "green": "0.16",
+            "blue": "0.09",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#b62a18"
+          },
+          "name": "baseRedDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "red",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "red",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "1.00",
+            "green": "0.87",
+            "blue": "0.87",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#ffdfdf"
+          },
+          "name": "baseRedFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "red",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "red",
+            "fade"
+          ]
+        }
+      },
+      "orange": {
+        "light": {
+          "value": {
+            "red": "1.00",
+            "green": "0.65",
+            "blue": "0.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#ffa600"
+          },
+          "name": "baseOrangeLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "orange",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "orange",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.87",
+            "green": "0.53",
+            "blue": "0.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#df8700"
+          },
+          "name": "baseOrangeMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "orange",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "orange",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.75",
+            "green": "0.46",
+            "blue": "0.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#c07500"
+          },
+          "name": "baseOrangeDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "orange",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "orange",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "1.00",
+            "green": "0.96",
+            "blue": "0.87",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#fff4dd"
+          },
+          "name": "baseOrangeFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "orange",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "orange",
+            "fade"
+          ]
+        }
+      },
+      "smoke": {
+        "light": {
+          "value": {
+            "red": "0.89",
+            "green": "0.90",
+            "blue": "0.91",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#e2e6e8"
+          },
+          "name": "baseSmokeLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "smoke",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "smoke",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.83",
+            "green": "0.84",
+            "blue": "0.85",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#d3d5d8"
+          },
+          "name": "baseSmokeMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "smoke",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "smoke",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.66",
+            "green": "0.67",
+            "blue": "0.67",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#a8aaac"
+          },
+          "name": "baseSmokeDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "smoke",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "smoke",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "0.95",
+            "green": "0.96",
+            "blue": "0.97",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#f2f5f7"
+          },
+          "name": "baseSmokeFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "smoke",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "smoke",
+            "fade"
+          ]
+        }
+      },
+      "navy": {
+        "light": {
+          "value": {
+            "red": "0.22",
+            "green": "0.32",
+            "blue": "0.49",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#37517e"
+          },
+          "name": "baseNavyLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "navy",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "navy",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.18",
+            "green": "0.26",
+            "blue": "0.41",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#2e4369"
+          },
+          "name": "baseNavyMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "navy",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "navy",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.15",
+            "green": "0.21",
+            "blue": "0.33",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#253655"
+          },
+          "name": "baseNavyDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "navy",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "navy",
+            "dark"
+          ]
+        },
+        "fade": {
+          "value": {
+            "red": "0.66",
+            "green": "0.69",
+            "blue": "0.73",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#a8afbb"
+          },
+          "name": "baseNavyFade",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "navy",
+            "subitem": "fade"
+          },
+          "path": [
+            "color",
+            "base",
+            "navy",
+            "fade"
+          ]
+        }
+      },
+      "grey": {
+        "light": {
+          "value": {
+            "red": "0.51",
+            "green": "0.61",
+            "blue": "0.66",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#829ca9"
+          },
+          "name": "baseGreyLight",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "grey",
+            "subitem": "light"
+          },
+          "path": [
+            "color",
+            "base",
+            "grey",
+            "light"
+          ]
+        },
+        "mid": {
+          "value": {
+            "red": "0.44",
+            "green": "0.53",
+            "blue": "0.57",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#6f8691"
+          },
+          "name": "baseGreyMid",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "grey",
+            "subitem": "mid"
+          },
+          "path": [
+            "color",
+            "base",
+            "grey",
+            "mid"
+          ]
+        },
+        "dark": {
+          "value": {
+            "red": "0.36",
+            "green": "0.44",
+            "blue": "0.47",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#5d7079"
+          },
+          "name": "baseGreyDark",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "grey",
+            "subitem": "dark"
+          },
+          "path": [
+            "color",
+            "base",
+            "grey",
+            "dark"
+          ]
+        }
+      },
+      "white": {
         "value": {
-          "red": "0.22",
-          "green": "0.32",
-          "blue": "0.49",
+          "red": "1.00",
+          "green": "1.00",
+          "blue": "1.00",
           "alpha": 1
         },
         "original": {
-          "value": "{color.base.navy.light.value}"
+          "value": "#ffffff"
+        },
+        "name": "baseWhite",
+        "attributes": {
+          "category": "color",
+          "type": "base",
+          "item": "white"
+        },
+        "path": [
+          "color",
+          "base",
+          "white"
+        ]
+      }
+    },
+    "dark": {
+      "primary": {
+        "value": {
+          "red": "1.00",
+          "green": "1.00",
+          "blue": "1.00",
+          "alpha": 1
+        },
+        "original": {
+          "value": "{color.base.white.value}"
         },
         "name": "darkPrimary",
         "attributes": {
@@ -25,13 +711,13 @@
       },
       "secondary": {
         "value": {
-          "red": "0.44",
-          "green": "0.53",
-          "blue": "0.57",
+          "red": "0.83",
+          "green": "0.84",
+          "blue": "0.85",
           "alpha": 1
         },
         "original": {
-          "value": "{color.base.grey.mid.value}"
+          "value": "{color.base.smoke.mid.value}"
         },
         "name": "darkSecondary",
         "attributes": {
@@ -136,13 +822,13 @@
       "text": {
         "primary": {
           "value": {
-            "red": "0.22",
-            "green": "0.32",
-            "blue": "0.49",
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.primary.value}"
+            "value": "{color.dark.primary.value}"
           },
           "name": "darkTextPrimary",
           "attributes": {
@@ -160,13 +846,13 @@
         },
         "secondary": {
           "value": {
-            "red": "0.44",
-            "green": "0.53",
-            "blue": "0.57",
+            "red": "0.83",
+            "green": "0.84",
+            "blue": "0.85",
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.secondary.value}"
+            "value": "{color.dark.secondary.value}"
           },
           "name": "darkTextSecondary",
           "attributes": {
@@ -184,13 +870,13 @@
         },
         "inactive": {
           "value": {
-            "red": "0.66",
-            "green": "0.67",
-            "blue": "0.67",
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.smoke.dark.value}"
+            "value": "{color.dark.primary.value}"
           },
           "name": "darkTextInactive",
           "attributes": {
@@ -206,6 +892,30 @@
             "inactive"
           ]
         },
+        "control": {
+          "value": {
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.white.value}"
+          },
+          "name": "darkTextControl",
+          "attributes": {
+            "category": "color",
+            "type": "dark",
+            "item": "text",
+            "subitem": "control"
+          },
+          "path": [
+            "color",
+            "dark",
+            "text",
+            "control"
+          ]
+        },
         "link": {
           "value": {
             "red": "0.00",
@@ -214,7 +924,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.accent.value}"
+            "value": "{color.dark.accent.value}"
           },
           "name": "darkTextLink",
           "attributes": {
@@ -238,7 +948,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.positive.value}"
+            "value": "{color.dark.positive.value}"
           },
           "name": "darkTextPositive",
           "attributes": {
@@ -262,7 +972,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.negative.value}"
+            "value": "{color.dark.negative.value}"
           },
           "name": "darkTextNegative",
           "attributes": {
@@ -286,7 +996,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.warning.value}"
+            "value": "{color.dark.warning.value}"
           },
           "name": "darkTextWarning",
           "attributes": {
@@ -312,7 +1022,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.accent.value}"
+            "value": "{color.dark.accent.value}"
           },
           "name": "darkControlAccent",
           "attributes": {
@@ -336,7 +1046,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.positive.value}"
+            "value": "{color.dark.positive.value}"
           },
           "name": "darkControlPositive",
           "attributes": {
@@ -360,7 +1070,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.negative.value}"
+            "value": "{color.dark.negative.value}"
           },
           "name": "darkControlNegative",
           "attributes": {
@@ -384,7 +1094,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.warning.value}"
+            "value": "{color.dark.warning.value}"
           },
           "name": "darkControlWarning",
           "attributes": {
@@ -404,13 +1114,13 @@
       "border": {
         "neutral": {
           "value": {
-            "red": "0.89",
-            "green": "0.90",
-            "blue": "0.91",
+            "red": "0.20",
+            "green": "0.20",
+            "blue": "0.20",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.smoke.light.value}"
+            "value": "#333333"
           },
           "name": "darkBorderNeutral",
           "attributes": {
@@ -434,7 +1144,7 @@
             "alpha": 1
           },
           "original": {
-            "value": "{color.light.accent.value}"
+            "value": "{color.dark.accent.value}"
           },
           "name": "darkBorderFocus",
           "attributes": {
@@ -454,13 +1164,13 @@
       "background": {
         "screen": {
           "value": {
-            "red": "1.00",
-            "green": "1.00",
-            "blue": "1.00",
+            "red": "0.12",
+            "green": "0.12",
+            "blue": "0.12",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.white.value}"
+            "value": "#1E1E1E"
           },
           "name": "darkBackgroundScreen",
           "attributes": {
@@ -478,13 +1188,13 @@
         },
         "elevated": {
           "value": {
-            "red": "1.00",
-            "green": "1.00",
-            "blue": "1.00",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.white.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundElevated",
           "attributes": {
@@ -502,13 +1212,13 @@
         },
         "neutral": {
           "value": {
-            "red": "0.95",
-            "green": "0.96",
-            "blue": "0.97",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.smoke.fade.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundNeutral",
           "attributes": {
@@ -526,13 +1236,13 @@
         },
         "accent": {
           "value": {
-            "red": "0.85",
-            "green": "0.95",
-            "blue": "0.98",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.blue.fade.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundAccent",
           "attributes": {
@@ -550,13 +1260,13 @@
         },
         "positive": {
           "value": {
-            "red": "0.84",
-            "green": "0.96",
-            "blue": "0.89",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.green.fade.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundPositive",
           "attributes": {
@@ -574,13 +1284,13 @@
         },
         "negative": {
           "value": {
-            "red": "1.00",
-            "green": "0.87",
-            "blue": "0.87",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.red.fade.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundNegative",
           "attributes": {
@@ -598,13 +1308,13 @@
         },
         "warning": {
           "value": {
-            "red": "1.00",
-            "green": "0.96",
-            "blue": "0.87",
+            "red": "0.17",
+            "green": "0.17",
+            "blue": "0.17",
             "alpha": 1
           },
           "original": {
-            "value": "{color.base.orange.fade.value}"
+            "value": "#2B2B2B"
           },
           "name": "darkBackgroundWarning",
           "attributes": {
@@ -826,6 +1536,30 @@
             "light",
             "text",
             "inactive"
+          ]
+        },
+        "control": {
+          "value": {
+            "red": "1.00",
+            "green": "1.00",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "{color.base.white.value}"
+          },
+          "name": "lightTextControl",
+          "attributes": {
+            "category": "color",
+            "type": "light",
+            "item": "text",
+            "subitem": "control"
+          },
+          "path": [
+            "color",
+            "light",
+            "text",
+            "control"
           ]
         },
         "link": {

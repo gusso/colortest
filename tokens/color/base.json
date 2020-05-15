@@ -39,7 +39,8 @@
       "navy": {
         "light": { "value": "#37517e" },
         "mid": { "value": "#2e4369" },
-        "dark": { "value": "#253655" }
+        "dark": { "value": "#253655" },
+        "fade": { "value": "#a8afbb" }
       },
 
       "grey": {
