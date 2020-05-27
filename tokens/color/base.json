@@ -49,6 +49,13 @@
         "dark": { "value": "#5d7079" }
       },
 
+      "brand": {
+        "blue": { "value": "#00b9ff" },
+        "purple": { "value": "#485CC7" },
+        "amber": { "value": "#FFB619" },
+        "borderless": { "value": "#44EE70" }
+      },
+
       "white": { "value": "#ffffff" }
     }
   }

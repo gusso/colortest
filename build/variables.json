@@ -663,6 +663,104 @@
           ]
         }
       },
+      "brand": {
+        "blue": {
+          "value": {
+            "red": "0.00",
+            "green": "0.73",
+            "blue": "1.00",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#00b9ff"
+          },
+          "name": "baseBrandBlue",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "brand",
+            "subitem": "blue"
+          },
+          "path": [
+            "color",
+            "base",
+            "brand",
+            "blue"
+          ]
+        },
+        "purple": {
+          "value": {
+            "red": "0.28",
+            "green": "0.36",
+            "blue": "0.78",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#485CC7"
+          },
+          "name": "baseBrandPurple",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "brand",
+            "subitem": "purple"
+          },
+          "path": [
+            "color",
+            "base",
+            "brand",
+            "purple"
+          ]
+        },
+        "amber": {
+          "value": {
+            "red": "1.00",
+            "green": "0.71",
+            "blue": "0.10",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#FFB619"
+          },
+          "name": "baseBrandAmber",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "brand",
+            "subitem": "amber"
+          },
+          "path": [
+            "color",
+            "base",
+            "brand",
+            "amber"
+          ]
+        },
+        "borderless": {
+          "value": {
+            "red": "0.27",
+            "green": "0.93",
+            "blue": "0.44",
+            "alpha": 1
+          },
+          "original": {
+            "value": "#44EE70"
+          },
+          "name": "baseBrandBorderless",
+          "attributes": {
+            "category": "color",
+            "type": "base",
+            "item": "brand",
+            "subitem": "borderless"
+          },
+          "path": [
+            "color",
+            "base",
+            "brand",
+            "borderless"
+          ]
+        }
+      },
       "white": {
         "value": {
           "red": "1.00",
