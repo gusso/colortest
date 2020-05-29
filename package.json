@@ -1,18 +1,16 @@
 {
-  "name": "neptune-tokens",
+  "name": "colortest",
   "version": "1.0.0",
-  "description": "Design tokens for the Neptune Design System",
+  "description": "tokens",
   "license": "UNLICENSED",
-  "prettier": "@transferwise/eslint-config/.prettierrc.js",
   "repository": {
     "type": "git",
-    "url": "github.com:transferwise/neptune-tokens.git"
+    "url": "github.com:gusso/colortest.git"
   },
   "dependencies": {
     "style-dictionary": "^2.10.0"
   },
   "devDependencies": {
-    "@transferwise/eslint-config": "^6.0.0",
     "eslint-plugin-fp": "^2.3.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
