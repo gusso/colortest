@@ -1,22 +1,22 @@
-const StyleDictionary = require("style-dictionary")
+const StyleDictionary = require('style-dictionary');
 
 StyleDictionary.registerFilter({
-  name: "filter",
+  name: 'filter',
   matcher: (prop) => !prop.hideInDesign,
-})
+});
 
 StyleDictionary.extend({
-  source: ["tokens/color/*.json"],
+  source: ['tokens/color/*.json'],
   platforms: {
     json: {
-      transforms: ["name/ti/camel", "attribute/cti", "color/sketch"],
+      transforms: ['name/ti/camel', 'attribute/cti', 'color/sketch'],
       files: [
         {
-          format: "json",
-          destination: "build/variables.json",
-          filter: "filter",
+          format: 'json',
+          destination: 'build/variables.json',
+          filter: 'filter',
         },
       ],
     },
   },
-}).buildAllPlatforms()
+}).buildAllPlatforms();
