@@ -1,6 +1,6 @@
 {
   "name": "colortest-gusso",
-  "version": "1.0.19",
+  "version": "1.0.21",
   "description": "tokens",
   "license": "UNLICENSED",
   "prettier": "@transferwise/eslint-config/.prettierrc.js",
@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "node build",
-    "prepublishOnly": "npm run build && cp -R ./dist/* .",
+    "prepublishOnly": "npm run build && cp -R ./dist/* . && rm package-lock.json && rm package.json",
     "postpublish": "git clean -fd && npm run build"
   },
   "devDependencies": {
