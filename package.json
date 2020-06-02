@@ -10,14 +10,14 @@
     "url": "github.com:gusso/colortest.git"
   },
   "files": [
+    "colors.json",
     "colors.css",
-    "colors-base.less",
-    "colors.json"
+    "colors-base.less"
   ],
   "scripts": {
     "build": "node build",
     "prepublishOnly": "npm run build && cp -R ./dist/* .",
-    "postpublish": "git clean -fd && node build"
+    "postpublish": "git clean -fd && npm run build"
   },
   "devDependencies": {
     "@transferwise/eslint-config": "^6.0.0",
