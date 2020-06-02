@@ -15,7 +15,7 @@
   ],
   "scripts": {
     "build": "node build",
-    "prepublishOnly": "npm run build && cp -R ./dist/* . && rm package-lock.json && rm package.json",
+    "prepublishOnly": "npm run build && cp -R dist/* . && mv package-lock.json",
     "postpublish": "git clean -fd && npm run build"
   },
   "devDependencies": {
