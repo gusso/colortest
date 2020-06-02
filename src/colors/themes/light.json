@@ -15,7 +15,7 @@
         "control": { "value": "{color.base.white.value}" },
         "important": {
           "value": "{color.light.primary.value}",
-          "hideInDesign": true
+          "designTools": false
         },
         "link": { "value": "{color.light.accent.value}" },
         "positive": { "value": "{color.light.positive.value}" },

@@ -1,9 +1,9 @@
 // eslint-disable-next-line import/no-extraneous-dependencies
-import StyleDictionary from 'style-dictionary';
+const StyleDictionary = require('style-dictionary');
 
 StyleDictionary.registerFilter({
-  name: 'designTool',
-  matcher: ({ hideInDesign }) => !hideInDesign,
+  name: 'designTools',
+  matcher: ({ designTools }) => designTools === undefined && !designTools,
 });
 
 StyleDictionary.registerFilter({
@@ -32,7 +32,7 @@ StyleDictionary.registerTransform({
   transformer: ({ value }) => `${value}px`,
 });
 
-const output = [
+const configs = [
   {
     source: ['src/colors/**/*.json'],
 
@@ -43,7 +43,7 @@ const output = [
           {
             format: 'json',
             destination: 'dist/colors.json',
-            filter: 'designTool',
+            filter: 'designTools',
           },
         ],
       },
@@ -99,6 +99,6 @@ const output = [
   },
 ];
 
-output.forEach((config) => {
+configs.forEach((config) => {
   StyleDictionary.extend(config).buildAllPlatforms();
 });

@@ -3,7 +3,6 @@
   "version": "1.0.19",
   "description": "tokens",
   "license": "UNLICENSED",
-  "type": "module",
   "prettier": "@transferwise/eslint-config/.prettierrc.js",
   "repository": {
     "type": "git",
