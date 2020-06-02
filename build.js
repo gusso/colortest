@@ -17,19 +17,18 @@ StyleDictionary.registerFilter({
 });
 
 StyleDictionary.registerTransform({
-  name: 'name/notheme',
+  name: 'name/notype',
   type: 'name',
-  matcher: (prop) => prop.attributes.type !== 'base',
   transformer: (prop, options) =>
     [options.prefix]
-      .concat(prop.path.filter((name, i) => i !== 1))
+      .concat(prop.path.filter((p, i) => i !== 1))
       .join('-')
       .substring(1),
 });
 
 const output = [
   {
-    source: ['src/color/**/*.json'],
+    source: ['src/colors/**/*.json'],
     platforms: {
       json: {
         transforms: ['name/ti/camel', 'attribute/cti', 'color/sketch'],
@@ -42,7 +41,7 @@ const output = [
         ],
       },
 
-      lessBase: {
+      less: {
         transformGroup: 'less',
         files: [
           {
@@ -54,12 +53,37 @@ const output = [
       },
 
       css: {
-        transforms: ['attribute/cti', 'name/notheme'],
+        transforms: ['attribute/cti', 'name/notype'],
         files: [
           {
             format: 'css/variables',
             destination: 'dist/colors.css',
             filter: 'light',
+          },
+        ],
+      },
+    },
+  },
+
+  {
+    source: ['src/spacing/**/*.json'],
+    platforms: {
+      less: {
+        transforms: ['attribute/cti', 'name/notype'],
+        files: [
+          {
+            format: 'less/variables',
+            destination: 'dist/spacing.less',
+          },
+        ],
+      },
+
+      css: {
+        transforms: ['attribute/cti', 'name/notype'],
+        files: [
+          {
+            format: 'css/variables',
+            destination: 'dist/spacing.css',
           },
         ],
       },
