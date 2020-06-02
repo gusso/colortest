@@ -26,9 +26,16 @@ StyleDictionary.registerTransform({
       .substring(1),
 });
 
+StyleDictionary.registerTransform({
+  name: 'size/px',
+  type: 'value',
+  transformer: ({ value }) => `${value}px`,
+});
+
 const output = [
   {
     source: ['src/colors/**/*.json'],
+
     platforms: {
       json: {
         transforms: ['name/ti/camel', 'attribute/cti', 'color/sketch'],
@@ -67,9 +74,10 @@ const output = [
 
   {
     source: ['src/spacing/**/*.json'],
+
     platforms: {
       less: {
-        transforms: ['attribute/cti', 'name/notype'],
+        transforms: ['attribute/cti', 'name/notype', 'size/px'],
         files: [
           {
             format: 'less/variables',
@@ -79,7 +87,7 @@ const output = [
       },
 
       css: {
-        transforms: ['attribute/cti', 'name/notype'],
+        transforms: ['attribute/cti', 'name/notype', 'size/px'],
         files: [
           {
             format: 'css/variables',
