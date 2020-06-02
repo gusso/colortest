@@ -17,7 +17,7 @@ StyleDictionary.registerFilter({
 });
 
 StyleDictionary.registerTransform({
-  name: 'name/cti/kebab/notheme',
+  name: 'name/notheme',
   type: 'name',
   matcher: (prop) => prop.attributes.type !== 'base',
   transformer: (prop, options) =>
@@ -54,14 +54,7 @@ const output = [
       },
 
       css: {
-        transforms: [
-          'attribute/cti',
-          'name/cti/kebab/notheme',
-          'time/seconds',
-          'content/icon',
-          'size/rem',
-          'color/css',
-        ],
+        transforms: ['attribute/cti', 'name/notheme'],
         files: [
           {
             format: 'css/variables',
