@@ -1,6 +1,6 @@
 {
   "name": "colortest-gusso",
-  "version": "1.0.16",
+  "version": "1.0.17",
   "description": "tokens",
   "license": "UNLICENSED",
   "type": "module",
@@ -10,9 +10,9 @@
     "url": "github.com:gusso/colortest.git"
   },
   "files": [
-    "colors.json",
-    "colors.css",
-    "colors-base.less"
+    "*.json",
+    "*.css",
+    "*.less"
   ],
   "scripts": {
     "build": "node build",
