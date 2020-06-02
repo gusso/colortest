@@ -29,7 +29,7 @@ StyleDictionary.registerTransform({
 
 const output = [
   {
-    source: ['tokens/color/**/*.json'],
+    source: ['src/color/**/*.json'],
     platforms: {
       json: {
         transforms: ['name/ti/camel', 'attribute/cti', 'color/sketch'],
