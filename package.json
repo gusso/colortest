@@ -1,6 +1,6 @@
 {
   "name": "colortest-gusso",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "tokens",
   "license": "UNLICENSED",
   "type": "module",
@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prepublishOnly": "node build && cp -r ./dist/* . && rm -rf ./dist",
-    "postpublish": "git clean -fd"
+    "postpublish": "git clean -fd && node build"
   },
   "devDependencies": {
     "@transferwise/eslint-config": "^6.0.0",
